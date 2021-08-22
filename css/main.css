@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+  font-family: Merriweather, serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1, h2, dt {
+  font-style: italic;
+
+.banner {
+  display: grid;
+  grid-template-areas: banner;
+}
+
+figcaption {
+  padding: .2rem 1.2rem;
+}
+
+.banner-image {
+  grid-area: banner;
+}
+
+.text {
+  grid-area: banner;
+  align-self: end;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
